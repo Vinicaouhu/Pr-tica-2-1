@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+  float C=125;
+  float F=1.8*C+32;
+  printf("%f\n",F);
+  return 0;
+}

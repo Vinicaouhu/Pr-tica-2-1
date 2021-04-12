@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+  long int a=662;
+  long int b=3;
+  int ab=a/b;
+  printf("%i\n",ab);
+  printf("%li\n", a%b);
+  return 0;
+}

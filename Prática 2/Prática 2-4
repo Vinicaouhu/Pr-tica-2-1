@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+  float larg=100;
+  float comp=50;
+  float area=larg*comp;
+  float areaemhec=area/10000;
+  printf("%f\n",areaemhec);
+  return 0;
+}

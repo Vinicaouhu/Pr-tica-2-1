@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+  float valorcompra=2;
+  float anofabricado=3;
+  float anodepreciado=6;
+  float valordepreciado=(anodepreciado-anofabricado)*0.01*valorcompra;
+  printf("%f\n",valordepreciado);
+  return 0;
+}

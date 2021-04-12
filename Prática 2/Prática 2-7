@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+  float valorhora=3;
+  float horastotais=6;
+  float bruto=valorhora*horastotais;
+  float liquido=bruto-0.25*bruto-0.11*bruto;
+  float imps=bruto*0.25+bruto*0.11;
+  printf("%f\n",bruto);
+  printf("%f\n",liquido);
+  printf("%f\n",imps);
+  return 0;
+}

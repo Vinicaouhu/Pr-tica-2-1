@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+  float peso=10.0;
+  float altura=3.0;
+  float imc=peso/altura;
+  printf("%f\n",imc/altura);
+  return 0;
+}
